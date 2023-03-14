@@ -18,8 +18,6 @@ package main
 
 import (
 	"fmt"
-
-	"rsc.io/quote"
 )
 
 func main() {
@@ -44,5 +42,4 @@ func foo() {
 
 func bar() {
 	fmt.Println("No, this is really the last Hello world!")
-	fmt.Println(quote.Go())
 }
