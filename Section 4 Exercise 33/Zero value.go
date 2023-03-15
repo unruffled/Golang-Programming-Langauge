@@ -20,4 +20,9 @@ func main() {
 	fmt.Printf("%b\n", y)
 	fmt.Printf("%x\n", y)
 	fmt.Printf("%#x\n", y)
+
+	// fmt.Print() will print without a line
+	// fmt.Printf() needs a format string
+	s := fmt.Sprintf("%#x\n", y)
+	fmt.Println(s)
 }
